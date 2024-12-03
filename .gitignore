@@ -1,0 +1,88 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+.metro-cache/
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.pnpm-debug.log*
+
+# Testing
+/coverage
+*.lcov
+
+# Production
+/build
+/dist
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+*.pem
+.AppleDouble
+.LSOverride
+
+# Local env files
+.env
+.env*.local
+
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Temporary files
+*.log
+.temp
+.tmp
+.cache/
+
+# Example and documentation
+app-example/
+docs/_build/
+
+# Expo specific
+expo-env.d.ts
+# @end expo-cli
+
+# iOS
+ios/Pods/
+ios/build/
+ios/Podfile.lock
+
+# Android
+android/app/build/
+android/build/
+android/.gradle
+android/local.properties
